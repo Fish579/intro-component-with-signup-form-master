@@ -84,7 +84,3 @@ registration-page/
         <p class="mb-6">
             This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you like.
         </p>
-    </div>
-
-</body>
-</html>
