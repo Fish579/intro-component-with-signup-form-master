@@ -75,5 +75,5 @@ registration-page/
         </pre>
 <h2 id="license" class="text-2xl font-semibold mt-8 mb-4">License</h2>
         <p class="mb-6">
-            This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you like.
+            This project is licensed under the FT License. Feel free to use, modify, and distribute it as you like.
         </p>
