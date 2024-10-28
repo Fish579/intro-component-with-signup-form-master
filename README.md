@@ -42,6 +42,27 @@
             </li>
             <li>Open <code>index.html</code> in your preferred browser to view the page.</li>
         </ol>
+
+        <h2 id="usage" class="text-2xl font-semibold mt-8 mb-4">Usage</h2>
+        <h3 class="text-xl font-semibold mt-6 mb-2">Validating Input</h3>
+        <ul class="list-disc list-inside mb-6">
+            <li>Enter information in each field (First Name, Last Name, Email, and Password).</li>
+            <li>Click the <strong>Submit</strong> button. If any field is left blank, a red error message will appear below the corresponding field.</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold mt-6 mb-2">Responsive Design</h3>
+        <ul class="list-disc list-inside mb-6">
+            <li>On <strong>desktop (1440px)</strong> screens, the content is displayed side-by-side.</li>
+            <li>On <strong>mobile (375px)</strong> screens, the content stacks vertically.</li>
+        </ul>
+
+        <h2 id="folder-structure" class="text-2xl font-semibold mt-8 mb-4">Folder Structure</h2>
+        <pre class="bg-gray-200 p-3 rounded mb-6">
+registration-page/
+├── index.html         # Main HTML file
+├── styles.css         # Custom CSS (if applicable)
+└── README.md          # Project documentation
+        </pre>
         
 Responsive Design
 The page adjusts automatically based on screen size:
