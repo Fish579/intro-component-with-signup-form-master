@@ -15,7 +15,6 @@
             <li><a href="#license">License</a></li>
         </ul>
 <h2 id="demo" class="text-2xl font-semibold mt-8 mb-4">Demo</h2>
- <p class="mb-6">![Registration Page Demo](demo.gif)</p>
 
         <h2 id="features" class="text-2xl font-semibold mt-8 mb-4">Features</h2>
         <ul class="list-disc list-inside mb-6">
