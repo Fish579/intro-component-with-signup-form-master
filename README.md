@@ -43,53 +43,5 @@
             <li>Open <code>index.html</code> in your preferred browser to view the page.</li>
         </ol>
 
+
         <h2 id="usage" class="text-2xl font-semibold mt-8 mb-4">Usage</h2>
-        <h3 class="text-xl font-semibold mt-6 mb-2">Validating Input</h3>
-        <ul class="list-disc list-inside mb-6">
-            <li>Enter information in each field (First Name, Last Name, Email, and Password).</li>
-            <li>Click the <strong>Submit</strong> button. If any field is left blank, a red error message will appear below the corresponding field.</li>
-        </ul>
-
-        <h3 class="text-xl font-semibold mt-6 mb-2">Responsive Design</h3>
-        <ul class="list-disc list-inside mb-6">
-            <li>On <strong>desktop (1440px)</strong> screens, the content is displayed side-by-side.</li>
-            <li>On <strong>mobile (375px)</strong> screens, the content stacks vertically.</li>
-        </ul>
-
-        <h2 id="folder-structure" class="text-2xl font-semibold mt-8 mb-4">Folder Structure</h2>
-        <pre class="bg-gray-200 p-3 rounded mb-6">
-registration-page/
-├── index.html         # Main HTML file
-├── styles.css         # Custom CSS (if applicable)
-└── README.md          # Project documentation
-        </pre>
-        
-Responsive Design
-The page adjusts automatically based on screen size:
-
-On desktop (1440px) screens, the content is displayed side-by-side.
-On mobile (375px) screens, the content stacks vertically.
-Folder Structure
-plaintext
-Copy code
-registration-page/
-├── index.html         # Main HTML file
-├── styles.css         # Custom CSS (if applicable)
-└── README.md          # Project documentation
-Customization
-Styling
-To adjust the styles, you can modify the existing Tailwind CSS classes or add custom CSS in the <style> tag within index.html.
-
-Validation
-JavaScript validation logic is handled within the <script> tag in index.html. You can add additional validation functions or modify existing error messages.
-
-Media Queries
-For custom screen sizes, adjust the media queries within the <style> tag.
-
-css
-Copy code
-@media (min-width: 1440px) { /* Styles for desktop */ }
-@media (max-width: 375px) { /* Styles for mobile */ }
-License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you like.
-
