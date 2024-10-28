@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Page Documentation</title>
-    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
-</head>
-<body class="bg-gray-100 text-gray-800 p-8">
-
-    <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-8">
-        <h1 class="text-3xl font-bold mb-4">Registration Page</h1>
+        <h1>Registration Page</h1>
         <p class="mb-6">
             A responsive registration page built using HTML, CSS, JavaScript, and Tailwind CSS. This page features user input validation with dynamic error messages for required fields, making it easy to use and accessible on both desktop and mobile devices.
         </p>
