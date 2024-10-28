@@ -16,13 +16,6 @@
         </ul>
 <h2 id="demo" class="text-2xl font-semibold mt-8 mb-4">Demo</h2>
 
-        <h2 id="features" class="text-2xl font-semibold mt-8 mb-4">Features</h2>
-        <ul class="list-disc list-inside mb-6">
-            <li>Responsive design that adapts for both desktop and mobile screens.</li>
-            <li>Input validation with real-time error messages for required fields.</li>
-            <li>Dynamic error messages displayed below the corresponding input fields.</li>
-            <li>Smooth transitions and styling powered by Tailwind CSS.</li>
-        </ul>
 Technologies
 HTML5: Markup structure of the page.
 CSS3: Custom styling in combination with Tailwind CSS for layout.
