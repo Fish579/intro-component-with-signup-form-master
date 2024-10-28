@@ -23,12 +23,14 @@
             <li>Dynamic error messages displayed below the corresponding input fields.</li>
             <li>Smooth transitions and styling powered by Tailwind CSS.</li>
         </ul>
-        
-Technologies
-HTML5: Markup structure of the page.
-CSS3: Custom styling in combination with Tailwind CSS for layout.
-JavaScript: Input validation and error handling.
-Tailwind CSS: Utility-first CSS framework for responsive design and styling.
+<h2 id="technologies" class="text-2xl font-semibold mt-8 mb-4">Technologies</h2>
+        <ul class="list-disc list-inside mb-6">
+            <li><strong>HTML5</strong>: Markup structure of the page.</li>
+            <li><strong>CSS3</strong>: Custom styling in combination with Tailwind CSS for layout.</li>
+            <li><strong>JavaScript</strong>: Input validation and error handling.</li>
+            <li><strong>Tailwind CSS</strong>: Utility-first CSS framework for responsive design and styling.</li>
+        </ul>        
+
 Setup
 Clone the repository or download the project files:
 bash
