@@ -35,7 +35,7 @@
 <h2 id="setup" class="text-2xl font-semibold mt-8 mb-4">Setup</h2>
         <ol class="list-decimal list-inside mb-6">
             <li>Clone the repository or download the project files:
-                <pre class="bg-gray-200 p-3 rounded mt-2">git clone https://github.com/your-username/registration-page.git</pre>
+                <pre class="bg-gray-200 p-3 rounded mt-2">git clone https://github.com/your-username/intro-component-with-signup-form-master.git</pre>
             </li>
             <li>Navigate to the project directory:
                 <pre class="bg-gray-200 p-3 rounded mt-2">cd registration-page</pre>
