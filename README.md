@@ -14,7 +14,7 @@
             <li><a href="#customization">Customization</a></li>
             <li><a href="#license">License</a></li>
         </ul>
-
+<h2 id="demo" class="text-2xl font-semibold mt-8 mb-4">Demo</h2>
 Features
 Responsive design that adapts for both desktop and mobile screens.
 Input validation with real-time error messages for required fields.
