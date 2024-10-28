@@ -44,3 +44,4 @@
         </ol>
         
  <h2 id="usage" class="text-2xl font-semibold mt-8 mb-4">Usage</h2>
+   <h3 class="text-xl font-semibold mt-6 mb-2">Validating Input</h3>
