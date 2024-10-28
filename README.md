@@ -3,16 +3,17 @@
             A responsive registration page built using HTML, CSS, JavaScript, and Tailwind CSS. This page features user input validation with dynamic error messages for required fields, making it easy to use and accessible on both desktop and mobile devices.
         </p>
 
-Table of Contents
-Demo
-Features
-Technologies
-Setup
-Usage
-Folder Structure
-Customization
-License
-Demo
+<h2>Table of Contents</h2>
+<ul class="list-disc list-inside mb-6">
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#setup">Setup</a></li>
+            <li><a href="#usage">Usage</a></li>
+            <li><a href="#folder-structure">Folder Structure</a></li>
+            <li><a href="#customization">Customization</a></li>
+            <li><a href="#license">License</a></li>
+        </ul>
 
 Features
 Responsive design that adapts for both desktop and mobile screens.
