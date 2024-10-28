@@ -67,7 +67,7 @@ registration-page/
 <h3 class="text-xl font-semibold mt-6 mb-2">Validation</h3>
         <p class="mb-6">JavaScript validation logic is handled within the <code>&lt;script&gt;</code> tag in <code>index.html</code>. You can add additional validation functions or modify existing error messages.</p>
 
-        <h3 class="text-xl font-semibold mt-6 mb-2">Media Queries</h3>
+<h3 class="text-xl font-semibold mt-6 mb-2">Media Queries</h3>
         <p class="mb-6">For custom screen sizes, adjust the media queries within the <code>&lt;style&gt;</code> tag.</p>
         <pre class="bg-gray-200 p-3 rounded mb-6">
 @media (min-width: 1440px) { /* Styles for desktop */ }
