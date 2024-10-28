@@ -69,7 +69,7 @@ registration-page/
 
 <h3 class="text-xl font-semibold mt-6 mb-2">Media Queries</h3>
         <p class="mb-6">For custom screen sizes, adjust the media queries within the <code>&lt;style&gt;</code> tag.</p>
-        <pre class="bg-gray-200 p-3 rounded mb-6">
+      <pre class="bg-gray-200 p-3 rounded mb-6">
 @media (min-width: 1440px) { /* Styles for desktop */ }
 @media (max-width: 375px) { /* Styles for mobile */ }
         </pre>
