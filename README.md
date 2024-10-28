@@ -38,7 +38,7 @@
                 <pre class="bg-gray-200 p-3 rounded mt-2">git clone https://github.com/your-username/intro-component-with-signup-form-master.git</pre>
             </li>
             <li>Navigate to the project directory:
-                <pre class="bg-gray-200 p-3 rounded mt-2">cd registration-page</pre>
+                <pre class="bg-gray-200 p-3 rounded mt-2">cd intro-component-with-signup-form-mastere</pre>
             </li>
             <li>Open <code>index.html</code> in your preferred browser to view the page.</li>
         </ol>
