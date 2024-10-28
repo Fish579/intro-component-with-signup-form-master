@@ -54,3 +54,10 @@
             <li>On <strong>desktop (1440px)</strong> screens, the content is displayed side-by-side.</li>
             <li>On <strong>mobile (375px)</strong> screens, the content stacks vertically.</li>
         </ul>
+ <h2 id="folder-structure" class="text-2xl font-semibold mt-8 mb-4">Folder Structure</h2>
+        <pre class="bg-gray-200 p-3 rounded mb-6">
+registration-page/
+├── index.html         # Main HTML file
+├── styles.css         # Custom CSS (if applicable)
+└── README.md          # Project documentation
+        </pre>
