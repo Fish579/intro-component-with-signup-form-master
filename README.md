@@ -73,3 +73,7 @@ registration-page/
 @media (min-width: 1440px) { /* Styles for desktop */ }
 @media (max-width: 375px) { /* Styles for mobile */ }
         </pre>
+<h2 id="license" class="text-2xl font-semibold mt-8 mb-4">License</h2>
+        <p class="mb-6">
+            This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you like.
+        </p>
