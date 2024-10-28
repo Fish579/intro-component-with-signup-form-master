@@ -64,3 +64,5 @@ registration-page/
 <h2 id="customization" class="text-2xl font-semibold mt-8 mb-4">Customization</h2>
         <h3 class="text-xl font-semibold mt-6 mb-2">Styling</h3>
         <p class="mb-6">To adjust the styles, you can modify the existing Tailwind CSS classes or add custom CSS in the <code>&lt;style&gt;</code> tag within <code>index.html</code>.</p>
+<h3 class="text-xl font-semibold mt-6 mb-2">Validation</h3>
+        <p class="mb-6">JavaScript validation logic is handled within the <code>&lt;script&gt;</code> tag in <code>index.html</code>. You can add additional validation functions or modify existing error messages.</p>
