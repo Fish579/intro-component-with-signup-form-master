@@ -23,6 +23,7 @@
             <li>Dynamic error messages displayed below the corresponding input fields.</li>
             <li>Smooth transitions and styling powered by Tailwind CSS.</li>
         </ul>
+        
 <h2 id="technologies" class="text-2xl font-semibold mt-8 mb-4">Technologies</h2>
         <ul class="list-disc list-inside mb-6">
             <li><strong>HTML5</strong>: Markup structure of the page.</li>
@@ -31,20 +32,17 @@
             <li><strong>Tailwind CSS</strong>: Utility-first CSS framework for responsive design and styling.</li>
         </ul>        
 
-Setup
-Clone the repository or download the project files:
-bash
-Copy code
-git clone https://github.com/your-username/registration-page.git
-Navigate to the project directory:
-bash
-Copy code
-cd registration-page
-Open index.html in your preferred browser to view the page.
-Usage
-Validating Input
-Enter information in each field (First Name, Last Name, Email, and Password).
-Click the Submit button. If any field is left blank, a red error message will appear below the corresponding field.
+<h2 id="setup" class="text-2xl font-semibold mt-8 mb-4">Setup</h2>
+        <ol class="list-decimal list-inside mb-6">
+            <li>Clone the repository or download the project files:
+                <pre class="bg-gray-200 p-3 rounded mt-2">git clone https://github.com/your-username/registration-page.git</pre>
+            </li>
+            <li>Navigate to the project directory:
+                <pre class="bg-gray-200 p-3 rounded mt-2">cd registration-page</pre>
+            </li>
+            <li>Open <code>index.html</code> in your preferred browser to view the page.</li>
+        </ol>
+        
 Responsive Design
 The page adjusts automatically based on screen size:
 
