@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+
+  <style>
+   body {
+    background-image: url('/images/bg-intro-desktop.png');
+    background-color: orange;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#try {
+  background-color: #6050DC;
+}
+#try:hover {
+  background-color: #4d41af;
+}
+.error {
+            color: red;
+            font-size: 10px;
+            margin-top: -10px;
+  margin-left: 200px;
+}
+@media (min-width: 1440px) {
+
+   .container {
+      flex-direction: row;
+      gap: 2rem;
+        }
+  }
+
+@media (max-width: 375px) {
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+      }
+  }
+
+  </style>
+</head>
+<body class="flex justify-center items-center h-screen ">
+  
+<form id="registrationForm">
+  <div class="flex space-x-4 ">
+    <div class="w-1/2 mr-10">
+      <p class="text-white text-4xl font-bold mt-10 mr-10 mb-5">
+        Learn to code by<br> watching others
+      </p>
+      <p class="text-white text-[18px]">
+        See how experienced developers solve problems in real-time. <br>Watching scripted tutorials is great, 
+        but understanding how <br>developers think is invaluable.
+      </p>
+      
+    </div>
+    <div  style="width: 550px; height: 400px;">
+      <button id="try" class=" text-white py-2 px-4 rounded shadow" style="width: 530px;">
+        <span class="font-bold">Try it free 7 days</span> then $20/mo. thereafter
+      </button>
+      <div class="mt-4 flex flex-col items-center bg-white rounded-lg shadow" style="width: 530px; height: 330px;">
+        <input type="text" placeholder="First Name" id="first-name" name="firstName" class="border border-gray-300 p-2 rounded mb-3 mt-5" style="width: 500px;" required>
+        <div id="first-name-error" class="error" ></div>
+        <input type="text" placeholder="Last Name" id="last-name" name="lastName" class="border border-gray-300 p-2 rounded mb-3" style="width: 500px;" required>
+        <div id="last-name-error" class="error"></div>
+        <input type="email" placeholder="Email Address" id="email" name="email" class="border border-gray-300 p-2 rounded mb-3" style="width: 500px;" required>
+        <div id="email-error" class="error"></div>
+        <input type="password" placeholder="Password" id="password" name="password" class="border border-gray-300 p-2 rounded mb-5" style="width: 500px;" required>
+        <div id="password-error" class="error"></div>
+        <button id="submit-button" class="bg-green-500 text-white font-semibold py-2 px-4 rounded shadow hover:bg-green-700 mb-2" style="width: 500px;">
+          Claim your free trial
+        </button>
+        <p class="text-sm"><span class="opacity-25">By clicking the button, you are agreeing to our</span> <a href="#" class="text-blue-500 hover:text-blue-700 font-semibold">Terms and Services</a></p>
+    </div>
+    
+    </div>
+  </div>
+</form>
+
+<script>
+  
+  const firstNameInput = document.getElementById('first-name');
+  const lastNameInput = document.getElementById('last-name');
+  const emailInput = document.getElementById('email');
+  const passwordInput = document.getElementById('password');
+  const submitButton = document.getElementById('submit-button');
+
+  
+  const firstNameError = document.getElementById('first-name-error');
+  const lastNameError = document.getElementById('last-name-error');
+  const emailError = document.getElementById('email-error');
+  const passwordError = document.getElementById('password-error');
+
+  
+  submitButton.addEventListener('click', function(event) {
+      event.preventDefault(); 
+
+      firstNameError.textContent = '';
+      lastNameError.textContent = '';
+      emailError.textContent = '';
+      passwordError.textContent = '';
+
+      
+      const firstName = firstNameInput.value.trim();
+      const lastName = lastNameInput.value.trim();
+      const email = emailInput.value.trim();
+      const password = passwordInput.value.trim();
+
+      let hasError = false; 
+
+      
+      if (!firstName) {
+          firstNameError.textContent = "First Name can't be left empty.";
+          hasError = true;
+      }
+      if (!lastName) {
+          lastNameError.textContent = "Last Name can't be left empty.";
+          hasError = true;
+      }
+      if (!email) {
+          emailError.textContent = "Email can't be left empty.";
+          hasError = true;
+      }
+      if (!password) {
+          passwordError.textContent = "Password can't be left empty.";
+          hasError = true;
+      }
+
+      // If no errors, display the input values in an alert
+      if (!hasError) {
+          alert(`First Name: ${firstName}\nLast Name: ${lastName}\nEmail: ${email}\nPassword: ${password}`);
+      }
+  });
+</script>
+</body>
+</html>
