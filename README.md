@@ -56,7 +56,7 @@
         </ul>
  <h2 id="folder-structure" class="text-2xl font-semibold mt-8 mb-4">Folder Structure</h2>
         <pre class="bg-gray-200 p-3 rounded mb-6">
-registration-page/
+intro-component-with-signup-form-master/
 ├── index.html         # Main HTML file
 ├── styles.css         # Custom CSS (if applicable)
 └── README.md          # Project documentation
