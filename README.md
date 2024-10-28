@@ -42,6 +42,5 @@
             </li>
             <li>Open <code>index.html</code> in your preferred browser to view the page.</li>
         </ol>
-
-
-        <h2 id="usage" class="text-2xl font-semibold mt-8 mb-4">Usage</h2>
+        
+ h2 id="usage" class="text-2xl font-semibold mt-8 mb-4">Usage</h2>
