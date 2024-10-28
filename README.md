@@ -1,5 +1,7 @@
 <h1>Registration Page</h1>
-A responsive registration page built using HTML, CSS, JavaScript, and Tailwind CSS. This page features user input validation with dynamic error messages for required fields, making it easy to use and accessible on both desktop and mobile devices.
+ <p>
+            A responsive registration page built using HTML, CSS, JavaScript, and Tailwind CSS. This page features user input validation with dynamic error messages for required fields, making it easy to use and accessible on both desktop and mobile devices.
+        </p>
 
 Table of Contents
 Demo
