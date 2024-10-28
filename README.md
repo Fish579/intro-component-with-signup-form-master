@@ -57,7 +57,8 @@
  <h2 id="folder-structure" class="text-2xl font-semibold mt-8 mb-4">Folder Structure</h2>
         <pre class="bg-gray-200 p-3 rounded mb-6">
 registration-page/
-├── index.html         # Main HTML file   
+├── index.html         # Main HTML file
+├── styles.css         # Custom CSS (if applicable)
 └── README.md          # Project documentation
         </pre>
 <h2 id="customization" class="text-2xl font-semibold mt-8 mb-4">Customization</h2>
