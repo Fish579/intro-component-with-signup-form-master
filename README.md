@@ -12,7 +12,7 @@
             <li><a href="#usage">Usage</a></li>
             <li><a href="#folder-structure">Folder Structure</a></li>
             <li><a href="#customization">Customization</a></li>
-            <li><a href="#license">License</a></li>
+            <li><a href="#license">Author</a></li>
         </ul>
 <h2 id="demo" class="text-2xl font-semibold mt-8 mb-4">Demo</h2>
 
@@ -73,7 +73,7 @@ intro-component-with-signup-form-master/
 @media (min-width: 1440px) { /* Styles for desktop */ }
 @media (max-width: 375px) { /* Styles for mobile */ }
         </pre>
-<h2 id="license" class="text-2xl font-semibold mt-8 mb-4">License</h2>
+<h2 id="license" class="text-2xl font-semibold mt-8 mb-4">Author</h2>
         <p class="mb-6">
-            This project is licensed under the FT License. Feel free to use, modify, and distribute it as you like.
+            This project is Written by Fitsum Tesfu. Feel free to use, modify, and distribute it as you like.
         </p>
